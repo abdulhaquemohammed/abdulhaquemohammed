@@ -11,11 +11,11 @@ Year 13 student studying Maths, Further Maths and Computer Science, aiming for a
 ## Selected work
 
 - **Bulldozer Price Prediction**: Regression on auction sale prices. Rebuilt preprocessing to fit on training data only and compared Random Forest against gradient boosting; best model reached 0.2308 RMSLE on validation.
-  Repo: https://github.com/abdulhaquesiddiqui/bulldozer-price-prediction
+  Repo: https://github.com/abdulhaquemohammed/bulldozer-price-prediction
 - **Dog Breed Identification**: Classifies 120 dog breeds from photos using transfer learning on MobileNetV2 (TensorFlow Hub). Reached 66% validation accuracy on a 1,000-image subset, and compared it against EfficientNetV2-B0.
-  Repo: https://github.com/abdulhaquesiddiqui/dog-vision
+  Repo: https://github.com/abdulhaquemohammed/dog-vision
 - **Heart Disease Classification**: Predicts heart disease from 13 clinical features. Logistic Regression reached ~85-88% accuracy with ~0.93 recall.
-  Repo: https://github.com/abdulhaquesiddiqui/heart-disease-classification
+  Repo: https://github.com/abdulhaquemohammed/heart-disease-classification
 
 *All three are guided projects from the Zero To Mastery course, which I extended and cleaned up.*
 
