@@ -25,5 +25,5 @@ Python, NumPy, pandas, scikit-learn, TensorFlow/Keras, Matplotlib, Jupyter
 
 ## Additional Profiles
 
-- LinkedIn: [linkedin.com/in/abdulhaquesiddiqui](https://www.linkedin.com/in/abdulhaquesiddiqui/)
-- GitHub: [github.com/abdulhaquesiddiqui](https://github.com/abdulhaquesiddiqui)
+- LinkedIn: [linkedin.com/in/abdulhaquesiddiqui](https://www.linkedin.com/in/abdulhaquemohammed/)
+- GitHub: [github.com/abdulhaquesiddiqui](https://github.com/abdulhaquemohammed)
