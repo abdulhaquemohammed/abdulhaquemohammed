@@ -4,28 +4,25 @@ Year 13 student studying Maths, Further Maths and Computer Science, aiming for a
 
 ## Summary
 
-- Completed the Zero To Mastery Complete: AI, Machine Learning and Data Science course, including three end-to-end ML projects which I extended beyond the course.
-- Built and compared classification, regression and deep learning models using scikit-learn and TensorFlow.
-- Currently working on a Competitor Demand Prediction project on CadetX's ML engineering track.
-- Completed the BCG X Data Science Job Simulation (Forage): customer churn analysis, feature engineering and a random forest model.
-- Focused on doing ML properly: avoiding data leakage, cross-validation, and choosing metrics that fit the problem (e.g. recall for medical data).
+- Machine Learning Engineer Intern at CadetX, working on an NLP and forecasting project that predicts AI-company hiring demand from public job postings.
+- Did AI engineering work experience at Cadent, where I built a web app powered by a local LLM.
+- Completed the Zero To Mastery Complete: AI, Machine Learning and Data Science course and the BCG X Data Science Job Simulation (Forage).
+- Focused on doing ML properly: avoiding data leakage, checking results hold up statistically, and picking metrics that fit the problem.
 
 ## Selected work
 
-- **Bulldozer Price Prediction**: Regression on auction sale prices (400k+ sales). Rebuilt preprocessing to fit on training data only and compared Random Forest against gradient boosting; best model reached 0.2308 RMSLE on validation.
-  Repo: https://github.com/abdulhaquemohammed/bulldozer-price-prediction
-- **Dog Vision**: Classifies 120 dog breeds from photos using transfer learning on MobileNetV2 (TensorFlow Hub). Compared it against EfficientNetV2-B0 (66% vs 63% validation accuracy on a 1,000-image subset), which showed data, not architecture, was the bottleneck.
-  Repo: https://github.com/abdulhaquemohammed/dog-vision
-- **Heart Disease Classification**: Predicts heart disease from 13 clinical features. Compared and tuned classifiers; Logistic Regression reached 88.5% test accuracy (84.8% cross-validated) with ~0.93 recall. Added a feature-scaling pipeline and model saving.
-  Repo: https://github.com/abdulhaquemohammed/heart-disease-classification
+- **[Is DLS Fair in T20 Cricket?](https://github.com/abdulhaquemohammed/dls-fairness-t20)**: Independent project. Analysed 514k deliveries (4,493 T20I/IPL chases) and found DLS undervalues wickets in hand late in a chase (60% vs 47% win rate at par in the last 5 overs), holding up under a match-level bootstrap and a permutation test (p = 0.0003). Built a gradient boosting win-probability model with monotonic constraints (log loss 0.380 vs 0.694 baseline).
+- **[Competitor Demand Prediction](https://github.com/abdulhaquemohammed/competitor-demand-prediction)**: CadetX project. Python pipeline collecting 5,000+ job postings from OpenAI, Anthropic, Databricks and NVIDIA via public job-board APIs, with twice-weekly snapshots. Cleaned the text for NLP and built a 158-skill taxonomy to track skill trends, e.g. NVIDIA postings mentioning AI agents rose from 8% to 18%.
+- **[Dog Vision: Uncertainty-Aware Breed Classifier](https://github.com/abdulhaquemohammed/dog-vision)**: Transfer learning (MobileNetV2) for 120 dog breeds. The model confidently labelled photos of people as dog breeds, so I added MC dropout: confidence on people fell from 57% to 32% with no loss of dog accuracy (81%). Compared it with temperature scaling (Guo et al., 2017): equal calibration, but better at separating dogs from people (AUROC 0.944 vs 0.907).
+- **[Would I Lie to You? Web App](https://github.com/abdulhaquemohammed/would-i-lie-to-you)**: Built during my Cadent placement. Flask app where a local LLM (Llama 3.2 via Ollama) writes the lies, run as a client project (BRD, change requests, UAT) with 37 automated tests.
+- **[BCG X Churn Analysis](https://github.com/abdulhaquemohammed/bcg-x-churn-analysis)**: Customer churn model for an energy supplier. Showed the random forest's 90% accuracy hid a 4.6% recall, so it wasn't fit to target a 20% retention discount.
 
-*All three are guided projects from the Zero To Mastery course, which I extended and cleaned up.*
+Earlier guided projects from the ZTM course, which I extended: [Bulldozer Price Prediction](https://github.com/abdulhaquemohammed/bulldozer-price-prediction) (0.231 RMSLE with gradient boosting on log prices) and [Heart Disease Classification](https://github.com/abdulhaquemohammed/heart-disease-classification) (84.8% cross-validated accuracy, ~0.93 recall).
 
 ## Technical toolkit
 
-Python, NumPy, pandas, scikit-learn, TensorFlow/Keras, Matplotlib, Jupyter, Google Colab, VS Code, Git/GitHub
+Python, NumPy, pandas, scikit-learn, TensorFlow/Keras, Matplotlib, Seaborn, Flask, Ollama, pytest, Jupyter, Google Colab, VS Code, Git/GitHub, Claude Code
 
-## Additional Profiles
+## Contact
 
 - LinkedIn: [linkedin.com/in/abdulhaquemohammed](https://www.linkedin.com/in/abdulhaquemohammed/)
-- GitHub: [github.com/abdulhaquemohammed](https://github.com/abdulhaquemohammed)
